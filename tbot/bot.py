@@ -7,7 +7,7 @@ def greet_user(bot, updater):
 
 
 def main():
-    updtr = Updater('596855786:AAExs1OHdwVyH1HjHDLii00qa7DPbwt8WrU')
+    updtr = Updater('')
     dp = updtr.dispatcher
     dp.add_handler(CommandHandler('start', greet_user))
     updtr.start_polling()
